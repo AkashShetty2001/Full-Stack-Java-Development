@@ -6,7 +6,7 @@ class Disp{
 		for(int i=1;i<=10;i++) {
 			System.out.print(i);
 			try {
-				Thread.sleep(2000);
+				Thread.sleep(500);
 			}catch(InterruptedException e ) {
 				e.printStackTrace();
 			}
@@ -17,7 +17,7 @@ class Disp{
 		for(int i=65;i<=75;i++) {
 			System.out.print((char)i);
 			try {
-				Thread.sleep(2000);
+				Thread.sleep(500);
 			}catch(InterruptedException e ) {
 				e.printStackTrace();
 			}
@@ -34,7 +34,7 @@ class MyThread1 extends Thread{
 	
 	@Override
 	public void run() {
-		d.displayNumbers();
+		Disp.displayNumbers();
 	}
 }
 
@@ -47,7 +47,7 @@ class MyThread2 extends Thread{
 	
 	@Override
 	public void run() {
-		d.displayCharacters();
+		Disp.displayCharacters();
 	}
 }
 public class ClassLevelLockEx1 {
