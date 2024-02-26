@@ -14,7 +14,7 @@ public class Case2 {
 		Thread t = new Thread();
 		Thread t1 = new Thread(r);
 		
-		t1.start();//Thread class start method is called,it will invoke MyRunnable class run().
+		t1.start();//Thread class start method is called (so 2 threads),it will invoke MyRunnable class run().
 		//Thread 2 threads.
 		
 		System.out.println("Main Thread");
