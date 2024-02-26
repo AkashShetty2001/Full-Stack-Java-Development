@@ -14,7 +14,7 @@ public class Case3 {
 		Thread t = new Thread();
 		Thread t1 = new Thread(r);
 		
-		t.run();//only 1 thread , thread class run method called normally.
+		t.run();//only 1 thread (main Thread) , thread class run method called normally by main thread.
 		
 		System.out.println("Main Thread");
 		
