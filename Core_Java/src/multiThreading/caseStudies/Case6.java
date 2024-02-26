@@ -16,7 +16,7 @@ public class Case6 {
 		
 		r.run();//
 		/*no  new  thread , my using r MyRunnable class run() is called.
-		 * only main thread is used, and it will call the MyRunnabale6 run() */
+		 * only main thread is used, and it will call the MyRunnabale6 run() method */
 		
 		System.out.println("Main Thread");
 		
