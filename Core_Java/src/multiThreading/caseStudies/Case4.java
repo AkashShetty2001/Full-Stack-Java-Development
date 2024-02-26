@@ -14,7 +14,7 @@ public class Case4 {
 		Thread t = new Thread();
 		Thread t1 = new Thread(r);
 		
-		t1.run();//only 1 thread, runnable run method is called normally.
+		t1.run();//only 1 thread, runnable run method is called normally by main thread.
 		
 		System.out.println("Main Thread");
 		
