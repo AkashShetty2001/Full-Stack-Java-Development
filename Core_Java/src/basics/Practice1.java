@@ -24,12 +24,23 @@ public class Practice1 {
 //				System.out.println(a);
 				
 				
-				int a=5;
-				int b;
-				
-				b=a++ + --a - a-- - a++;
-				System.out.println(a);
-				System.out.println(b);
+//				
+
+//		
+//		int number=1;
+//		switch(number) {
+//		case 1: System.out.println("1stcase");
+//		case 2: System.out.println("1stcase");
+//		case 104: System.out.println("1stcase");
+//		default:System.out.println("default");
+//		break;
+//		case 106: System.out.println("1stcase");
+//		case 105: System.out.println("1stcase");
+//		}
+		
+		
+		int a=100;
+		System.out.println(-++a);
 	}
 
 }
