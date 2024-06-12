@@ -38,9 +38,50 @@ public class Practice1 {
 //		case 105: System.out.println("1stcase");
 //		}
 		
+//		
+//		int a=100;
+//		System.out.println(-++a);
 		
-		int a=100;
-		System.out.println(-++a);
+		
+//		Car c= new Car();
+//		c.display();
+//		c.display1(c);
+		
+		
+//		int n=15;
+//		for(int i=0;i<n;i++)
+//		{
+//			for(int j=0;j<n;j++)
+//			{
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+		
+		int a=10;
+		int b=20;
+		byte c=(10>20)?30:40;
+		System.out.println(c);
+		
+		
 	}
 
+}
+class Car{
+	int cost;
+	String name;
+	
+	public void display() {
+		System.out.println(cost);
+		System.out.println(name);//direct access
+		System.out.println("----------------");
+		
+		cost=20000;
+		name="sheru";
+	}
+	
+	public static void display1(Car c) {
+		System.out.println(c.cost);
+		System.out.println(c.name);
+	}
 }
