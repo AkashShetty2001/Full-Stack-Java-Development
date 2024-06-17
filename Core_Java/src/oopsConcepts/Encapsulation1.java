@@ -22,12 +22,13 @@ class Student {
 	void setAge(int age) {
 		this.age= age;
 	}
-	void setCity(String city) {
+	void setCity(String city) {  //setters
 		this.city= city;
 	}
 	
 	String getName() {
-		return name;
+		return name;   ///getters
+		
 	}
 	
 	int getRollNo() {
@@ -50,7 +51,7 @@ public class Encapsulation1 {
 		
 		Student s1= new Student();
 		//System.out.println(s1.name); // direct access
-		s1.setName("Akash");
+		s1.setName("Akash");    //controlled access to data members of class Student
 		s1.setRollNo(400);
 		s1.setAge(23);
 		s1.setCity("Bengaluru");
