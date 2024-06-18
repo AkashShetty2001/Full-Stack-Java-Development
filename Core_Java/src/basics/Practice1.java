@@ -58,30 +58,41 @@ public class Practice1 {
 //			System.out.println();
 //		}
 		
-		int a=10;
-		int b=20;
-		byte c=(10>20)?30:40;
-		System.out.println(c);
+//		int a=10;
+//		int b=20;
+//		byte c=(10>20)?30:40;
+//		System.out.println(c);
+		
+//		int a[]= new int[2];
+//		a[0]=1;
+//		System.out.println(a);
+		
+		byte a=1;
+		int b=2;
+		short c=3;
+		char d ='a';
+		int f[]=new int[d];
+		System.out.println(f.length);
 		
 		
 	}
 
 }
-class Car{
-	int cost;
-	String name;
-	
-	public void display() {
-		System.out.println(cost);
-		System.out.println(name);//direct access
-		System.out.println("----------------");
-		
-		cost=20000;
-		name="sheru";
-	}
-	
-	public static void display1(Car c) {
-		System.out.println(c.cost);
-		System.out.println(c.name);
-	}
-}
+//class Car{
+//	int cost;
+//	String name;
+//	
+//	public void display() {
+//		System.out.println(cost);
+//		System.out.println(name);//direct access
+//		System.out.println("----------------");
+//		
+//		cost=20000;
+//		name="sheru";
+//	}
+//	
+//	public static void display1(Car c) {
+//		System.out.println(c.cost);
+//		System.out.println(c.name);
+//	}
+//}
