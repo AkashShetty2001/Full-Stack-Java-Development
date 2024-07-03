@@ -8,12 +8,15 @@ public class Question1 {
 	public static void main(String[] args) {
 		File f= new File("demo.txt");
 		try {
-		f.createNewFile();
+		System.out.println(f.createNewFile());
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
 		
 		System.out.println(f.exists());
+		
+		
+		
 	}
 
 }
