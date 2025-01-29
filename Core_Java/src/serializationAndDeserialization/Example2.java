@@ -46,7 +46,8 @@ public class Example2 {
 }
 
 class Dog implements Serializable{
-	 transient int i=10;
+//	 transient 
+	transient int i=10;
 	int j=20;
 	
 	static {
